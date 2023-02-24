@@ -1,0 +1,593 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    position: sticky;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    top: 0;
+    z-index: 2;
+    
+}
+
+header .flex{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .flex img{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 0.7%;
+    margin-left: 5%;
+}
+
+.navlinks{
+    display: inline-flex;
+    margin: 2% 15% 2%;
+    list-style: none;
+}
+
+.navlinks li{
+    padding: 0% 5%;
+}
+
+.navlinks li a{
+    text-decoration: none;
+    color: black;
+    padding: 0% 5%;
+}
+
+#home img{
+    background-image: url(images/maxresdefault.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.box1{
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    justify-content: space-between;
+    left: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    z-index: 1;
+}
+
+.box1 p{
+    font-size: 3vh;
+    margin-top: 10%;
+    color: white;
+    
+}
+
+.box1 h1{
+    color: white;
+    font-size: 300%;
+}
+
+.bt1{
+    margin-top: 10%;
+    border: none;
+    padding: 2% 3% 2%;
+    background-color: white;
+
+}
+
+.bt1:hover{
+    background-color: sandybrown;
+    transition: 1s;
+   
+}
+
+.About{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.About .img1 img{
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.content1{
+   margin-top: 8%;
+}
+
+.content1 h1{
+   margin-left: 15%;
+   font-size: 300%;
+}
+
+.content1 p{
+   margin-left: 16%;
+   line-height: 2;
+   margin-top: 5%;
+}
+
+
+.bt2{
+    margin-left: 16%;
+    margin-top: 5%;
+    padding: 1.5% 3% 1.5%;
+    background-color:black;
+    color: white;
+}
+
+.bt2:hover{
+    background-color: sandybrown;
+    transition: 1s;
+}
+
+.headimg2{
+    text-align: center;
+}
+
+.headimg2 h1{
+   font-size: 300%;
+   margin-top: 2%;
+}
+
+.headimg2 img{
+       margin-top: 6%;
+}
+
+.row{
+    display: flex;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+.box2{
+    text-align: center;
+}
+
+.box2 img{
+    margin-top: 2%;
+}
+
+.box2 h3{
+    margin-top: 2%;
+}
+
+.box2 p{
+    margin-top: 2%;
+    line-height: 2;
+}
+
+.box3{
+    text-align: center;
+    margin-left: 3%;
+}
+
+.box3 img{
+    margin-top: 2%;
+}
+
+.box3 h3{
+    margin-top: 2%;
+}
+
+.box3 p{
+    margin-top: 2%;
+    line-height: 2;
+}
+
+.box4{
+    text-align: center;
+    margin-left: 3%;
+}
+
+.box4 img{
+    margin-top: 1%;
+}
+
+.box4 h3{
+    margin-top: 4%;
+}
+
+.box4 p{
+    margin-top: 1%;
+    line-height: 2;
+}
+
+.box5{
+    text-align: center;
+    margin-left: 3%;
+}
+
+.box5 img{
+    margin-top: 2%;
+}
+
+.box5 h3{
+    margin-top: 2%;
+}
+
+.box5 p{
+    margin-top: 2%;
+    line-height: 2;
+}
+
+.headimg3{
+    text-align: center;
+}
+
+.headimg3 h1{
+    font-size: 300%;
+    margin-top: 2%;
+}
+
+.headimg3 img{
+    margin-top: 6%;
+    margin-left: %;
+}
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+   
+}
+
+.cup1{
+    margin-left: 10%;
+}
+
+.cup2{
+    margin-left:1%;
+}
+
+.cup3{
+    margin-right:10% ;
+}
+
+.row3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+   
+}
+
+
+.cup4{
+    margin-left: 10%;
+}
+
+.cup5{
+    margin-left: 1%;
+}
+
+.cup6{
+    margin-right: 9%;
+}
+
+.menu h4{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 120%;
+}
+
+.headimg4{
+    text-align: center;
+}
+
+.headimg4 h1{
+    font-size: 300%;
+    margin-top: 2%;
+}
+
+.headimg4 img{
+    margin-top: 6%;
+}
+
+.row4{
+    display: flex;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+
+.gal{
+    margin-left: 3%;
+    
+}
+
+.row5{
+    display: flex;
+    margin-left: 13%;
+    margin-top: 3%;
+}
+
+.headimg5{
+    text-align: center;
+}
+
+.headimg5 h1{
+    font-size: 300%;
+    margin-top: 2%;
+}
+
+.headimg5 img{
+    margin-top: 6%;
+}
+
+.row6{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 12%;
+}
+ 
+.member{
+    margin-left: 3%;
+}
+
+.row7{
+    display: flex;
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+.team h4{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 120%;
+}
+
+.headimg6{
+    text-align: center;
+}
+
+.headimg6 h1{
+   font-size: 300%;
+   margin-top: 2%;
+}
+
+.headimg6 img{
+    margin-top: 6%;
+}
+
+.reg{
+    width: 35%;
+    height: 25rem;
+    border: 2px solid rgb(0, 0, .5);
+    margin-left: 12%;
+}
+
+.con1 img{
+    margin-left: 15%;
+}
+
+.con{
+    display: flex;
+    margin-top: 5%;
+}
+
+.reg h2{
+    text-align: center;
+    margin-top: 5%;
+}
+
+form input{
+    display: block;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 20px 20px 20px;
+    border: 2px solid;
+}
+.inp{
+    margin-top: 5%;
+}
+
+.bt3{
+    margin-left: 35%;
+    margin-top: 6%;
+    padding: 3% 5% ;
+}
+
+.bt3:hover{
+    background-color: sandybrown;
+    transition: 1s;
+}
+
+.info{
+    display: flex;
+   margin-left: 4%;
+}
+
+.classinfo1{
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.classinfo1 i{
+    font-size: 150%;
+    background-color: sandybrown;
+    padding: 15% 15% 15%;
+    border-radius: 50%;
+}
+
+.classinfo1 h2{
+    margin-top: 5%;
+}
+
+.classinfo1 h4{
+    margin-top: 5%;
+}
+
+
+.classinfo2{
+    margin-left: 2%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10.5%;
+}
+
+.classinfo2 i{
+    font-size: 150%;
+    background-color: sandybrown;
+    padding: 15% 15% 15%;
+    border-radius: 50%;
+}
+
+.classinfo2 h2{
+     margin-top: 5%;
+}
+
+
+.classinfo2 h4{
+    margin-top: 4%;
+}
+
+
+.classinfo3{
+    margin-left: 2%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 10.5%;
+}
+
+
+.classinfo3 i{
+    font-size: 150%;
+    background-color: sandybrown;
+    padding: 15% 15% 15%;
+    border-radius: 50%;
+}
+
+.classinfo3 h2{
+    margin-top: 5%;
+}
+
+
+.classinfo3 h4{
+    margin-top: 5%;
+}
+
+
+.classinfo4{
+    margin-left: 2%;
+    text-align: center;
+    margin-left: 9%;
+    margin-top: 10.5%;
+}
+
+
+.classinfo4 i{
+    font-size: 150%;
+    background-color: sandybrown;
+    padding: 15% 15% 15%;
+    border-radius: 50%;
+}
+
+
+.classinfo4 h2{
+    margin-top: 8%;
+}
+
+.classinfo4 h4{
+    margin-top: 5%;
+}
+
+
+hr{
+    width: 80%;
+    margin-left: 11%;
+    margin-top: 2%;
+    border:  2px solid ;
+}
+
+.info2 h2{
+margin-top: 3%;
+}
+
+.end{
+    text-align: center;
+    margin-top: 2%;
+    font-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
